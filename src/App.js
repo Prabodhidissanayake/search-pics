@@ -1,9 +1,14 @@
-import './App.css';
+import "./App.css";
+import SearchBar from "./components/SearchBar";
+import searchImages from "./api";
 
 function App() {
+  const handlleSubmit = (term) => {
+    searchImages(term);
+  };
   return (
     <div className="App">
-     App
+      <SearchBar onSubmit={handlleSubmit} />
     </div>
   );
 }
