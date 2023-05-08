@@ -9,7 +9,7 @@ const searchImages = async (term) => {
       query: term,
     },
   });
-  return response;
+  return response.data.results;
 };
 
 export default searchImages;

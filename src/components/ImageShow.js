@@ -1,7 +1,9 @@
 import React from "react";
 
-function ImageShow() {
-  return <div>ImageShow</div>;
+function ImageShow({image}) {
+  return <div>
+    <img alt='pictureofthesearch' src={image.urls.small}/>
+  </div>;
 }
 
 export default ImageShow;
