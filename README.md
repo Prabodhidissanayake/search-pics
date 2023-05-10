@@ -11,7 +11,7 @@ Display a grid of images fetched from the Unsplash API.
 **Installation**
 
 **Clone the repository:**
-git clone https://github.com/your-username/react-unsplash-image-search.git
+git clone https://github.com/Prabodhidissanayake/search-pics.git
 
 **Navigate to the project directory:**
 cd react-unsplash-image-search
